@@ -51,4 +51,4 @@ The following table lists the configurable parameters of the emqx chart and thei
 | `service.dashboardPort` | Emqx cluster dashboard port. |18083|
 | `emqxAddressType` | The address type is used to extract host from k8s service. <br> Value: ip/dns/hostname  <br> Note: hostname is only supported after v3.2.1 | ip |
 | `emqxConfig` | Emqx configuration item, see the [documentation](https://github.com/emqx/emqx-docker#emq-x-configuration) |{}|
-| `emqxLicneseSecretName` | EMQX Enterprise Edition requires manual creation of a Secret containing the licensed content. Write the name of Secret to the value of "emqxLicneseSecretName" |""|
+| `emqxLicenseSecretName` | EMQX Enterprise Edition requires manual creation of a Secret containing the licensed content. Write the name of Secret to the value of "emqxLicenseSecretName" |""|
